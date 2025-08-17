@@ -19,7 +19,7 @@
 //Size to run
 #define M 304*32*4
 #define N 1024*4
-#define ITERATIONS 7
+#define ITERATIONS 8
 
 
 //Reference CPU implementation
