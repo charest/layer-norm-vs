@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0ea12d52-f8b2-4418-9f77-81220c509232}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx;hip;cu</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a555ff73-41b3-4333-809e-10b4f5ac1591}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd;cuh</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{3469ca82-baaf-448f-befe-59e4ef3fd29b}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="device_patterns.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="device_tensor.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu_timer.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="host_tensor.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ops.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tensor.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="device_tensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="host_tensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
