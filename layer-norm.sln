@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36408.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "layer-norm-new", "layer-norm-new\layer-norm-new.vcxproj", "{6463899F-1B86-481D-9332-E44F7C6F7CCD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "layer-norm", "layer-norm\layer-norm.vcxproj", "{6463899F-1B86-481D-9332-E44F7C6F7CCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
