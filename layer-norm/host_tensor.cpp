@@ -37,8 +37,8 @@ template class host_tensor<3>;
 
 void print(host_tensor<2> in)
 {
-    for (size_t i = 0; i < in.size[0]; ++i) {
-        for (size_t j = 0; j < in.size[1]; ++j) {
+    for (size_t i = 0; i < std::min(in.size[0], 8uz); ++i) {
+        for (size_t j = 0; j < std::min(in.size[1], 8uz); ++j) {
             std::cout << std::setw(14) << std::scientific << std::setprecision(6) << in.at(i, j) << " ";
         }
         std::cout << std::endl;
